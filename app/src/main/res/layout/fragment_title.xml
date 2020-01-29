@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fran.cookBook.fragments.TitleFragment">
+
+    <EditText
+        android:id="@+id/tx_addTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="+ Título"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Foto principal:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="camera"
+            android:text="camara" />
+
+        <Button
+            android:id="@+id/bt_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="gallery"
+            android:text="galeria" />
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/addImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/dish" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Personas:" />
+
+        <Spinner
+            android:id="@+id/sp_addPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tiempo:" />
+
+        <Spinner
+            android:id="@+id/sp_addTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rb_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/rb_breackfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desayuno" />
+
+        <RadioButton
+            android:id="@+id/rb_lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Almuerzo" />
+
+        <RadioButton
+            android:id="@+id/rb_snack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merienda" />
+
+        <RadioButton
+            android:id="@+id/rb_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cena" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

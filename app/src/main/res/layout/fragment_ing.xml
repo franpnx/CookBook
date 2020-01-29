@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fran.cookBook.fragments.IngFragment">
+
+    <LinearLayout
+        android:id="@+id/ly_ingr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tx_addIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Añadir ingrediente"
+        android:textSize="24sp" />
+</LinearLayout>

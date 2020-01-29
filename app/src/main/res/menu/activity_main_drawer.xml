@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_todo"
+            android:icon="@drawable/vec_all"
+            android:title="@string/menu_todo" />
+        <item
+            android:id="@+id/menu_desayuno"
+            android:icon="@drawable/vc_breakfast"
+            android:title="@string/menu_desayuno" />
+        <item
+            android:id="@+id/menu_almuerzo"
+            android:icon="@drawable/vec_lunch"
+            android:title="@string/menu_almuerzo" />
+        <item
+            android:id="@+id/menu_merienda"
+            android:icon="@drawable/vec_apple"
+            android:title="@string/menu_merienda" />
+
+        <item
+            android:id="@+id/menu_cena"
+            android:icon="@drawable/vec_cup"
+            android:title="@string/menu_cena" />
+    </group>
+
+
+</menu>

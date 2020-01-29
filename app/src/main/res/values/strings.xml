@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Cook Book</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cook Book</string>
+    <string name="nav_header_subtitle">Cook Book@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_almuerzo">Almuerzo</string>
+    <string name="menu_desayuno">Desayuno</string>
+    <string name="menu_merienda">Merienda</string>
+    <string name="menu_cena">Cena</string>
+    <string name="menu_todo">Todo</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">CANCELAR</string>
+    <string name="dialog_delete_title">ELIMINAR</string>
+    <string name="dialog_delete">¿ Desea eliminar la receta:</string>
+    <string name="dialog_return_title">VOLVER</string>
+    <string name="dialog_return">¿Desea volver a la página anterior?
+        Los datos se perderán.</string>
+
+    <string name="addRecipeActivity">Añadir nueva receta</string>
+    <string name="editRecipe">Editar receta</string>
+    <string name="screen_1">grid</string>
+    <string name="screen_2">details</string>
+
+    <string name="toast_fields">Faltan campos por rellenar</string>
+    <string name="toast_recipeOK">Receta añadida correctamente</string>
+
+    <string name="progress_loading">Cargando...</string>
+
+    <!-- //////////////////////////   Demo Data  //////////////////////////////////////// -->
+
+    <!--Dish 01-->
+    <string name="d_01_title">Ensalada de cous cous</string>
+    <string name="d_01_people">2</string>
+    <string name="d_01_time">30 min</string>
+    <string name="d_01_type">Almuerzo</string>
+    <string-array name="d_01_ingredients">
+        <item>1 Taza de cous cous integral</item>
+        <item>1 Taza de caldo vegetal</item>
+        <item>Tomillo</item>
+        <item>semillas de cañamo</item>
+        <item>Pimienta negra</item>
+        <item>Vinagre de Módena</item>
+        <item>1/2 pimiento rojo</item>
+        <item>1 Taza de guisantes</item>
+        <item>1 naranja</item>
+        <item>1/2 bandeja de champiñones</item>
+        <item>Aceite de oliva</item>
+        <item>Sal</item>
+    </string-array>
+
+    <string-array name="d_01_steps">
+        <item>Preparar el couscous. En un bol ponemos el cous cous y el caldo vegetal junto con una pizca de pimienta y un chorrito de aceite.</item>
+        <item>Cocer los guisantes y reservar. Mientras se hacen los guisantes vamos a cortar el pimiento en tiras finas y la naranja en trozos y reservamos en la nevera.</item>
+        <item>Saltear las setas con sal, pimienta y tomillo. Cuando estén dorados añadir los guisantes y saltear 1 minuto más.</item>
+        <item>Montar el plato. Poner el couscous en el fondo del plato, añadir la naranja cortada en trozos, el pimiento rojo en tiras y poner el salteado de guisantes y champiñones.</item>
+        <item>Aderezar con vinagre de Módena, aceite de oliva y semillas de cáñamo.</item>
+    </string-array>
+
+
+    <!--Dish 02 -->
+    <string name="d_02_title">Gazpacho</string>
+    <string name="d_02_people">2</string>
+    <string name="d_02_time">15 min</string>
+    <string name="d_02_type">Almuerzo</string>
+    <string-array name="d_02_ingredients">
+        <item>6 tomates de tamaño medio muy maduros</item>
+        <item>1/4 de pimiento rojo</item>
+        <item>1/2 pimiento verde</item>
+        <item>1/2 cebolla tierna o cebolleta</item>
+        <item>1 diente de ajo</item>
+        <item>1 pepino pequeño</item>
+        <item>60 ml de aceite de oliva</item>
+        <item>20 ml de vinagre de vino</item>
+        <item>sal y pimienta al gusto</item>
+        <item>agua y hielo (opcional)</item>
+    </string-array>
+
+    <string-array name="d_02_steps">
+        <item>Retirar la piel del tomate y trocear junto con el resto de verduras.</item>
+        <item>Poner todos ingredientes menos el agua y el hielo en la batidora, triturar hasta obtener una mezcla homogénea. Comprobar antes de servir que tiene el punto de sal y de acidez (vinagre) deseado.</item>
+    </string-array>
+
+
+    <!--Dish 03-->
+    <string name="d_03_title">Potaje de lentejas</string>
+    <string name="d_03_people">4</string>
+    <string name="d_03_time">45 min</string>
+    <string name="d_03_type">Almuerzo</string>
+    <string-array name="d_03_ingredients">
+        <item>1 y 1/2 T de lentejas secas</item>
+        <item>1 patata</item>
+        <item>5 tomates secos</item>
+        <item>1 C Aceite de oliva</item>
+        <item>1 c de pimentón de la vera</item>
+        <item>1/2 pimiento verde</item>
+        <item>1/4 de pimiento rojo</item>
+        <item>1 hoja de laurel</item>
+        <item>1 ajo</item>
+        <item>1 zanahoria</item>
+        <item>Agua</item>
+        <item>Sal y pimienta</item>
+    </string-array>
+
+    <string-array name="d_03_steps">
+        <item>Pelar y trocear las patatas y las zanahorias en trozos de más o menos 2cm.</item>
+        <item>Cortar los pimientos y la cebolla trozos pequeños.</item>
+        <item>Corta el tomate seco en tiras. Añadir los ingredientes previamente cortados en la olla.</item>
+        <item>En una sartén añadir 1 C de aceite de oliva y sofreír el ajo cortados en láminas finas. Retirar el ajo y añadir a la olla lenta. En el mismo aceite con el fuego apagado añadimos la cucharadita de pimentón de la vera y lo sofreímos unos segundos, añadir a la olla.</item>
+        <item>Lavar las lentejas y añadirlas al resto de ingredientes.</item>
+        <item>Agregar el agua suficiente para cubrir por lo menos 5cm más arriba de los ingredientes.</item>
+        <item>Poner la olla en ALTO y dejar cocer 30 min.</item>
+    </string-array>
+
+
+    <!--Dish 04-->
+    <string name="d_04_title">Hamburguesa vegana</string>
+    <string name="d_04_people">6</string>
+    <string name="d_04_time">45 min</string>
+    <string name="d_04_type">Cena</string>
+    <string-array name="d_04_ingredients">
+        <item>1 taza de trigo sarraceno</item>
+        <item>1/4 taza de almendras molidas</item>
+        <item>1/4 taza de semillas de chia</item>
+        <item>2 remolachas pequeñas</item>
+        <item>1 limón</item>
+        <item>Perejil</item>
+        <item>2 ajos grandes</item>
+        <item>Sal</item>
+        <item>Pimienta</item>
+    </string-array>
+
+    <string-array name="d_04_steps">
+        <item>La noche anterior pondremos a germinar el trigo sarraceno en agua filtrada.</item>
+        <item>Escurrimos el trigo,  lo lavamos muy bien.  lo ponemos en el procesador de alimentos y trituramos hasta obtener una crema con grumos. Separamos en un bol y reservamos.
+            No recomiendo dejar la mezcla demasiado fina, ya que este ingrediente le aporta consistencia a nuestra masa.</item>
+        <item>En el procesador ponemos la chia, y trituramos hasta obtener una harina muy fina y reservamos.</item>
+        <item>Quitar la piel de la remolacha,  cortar a trozos pequeños y poner junto con el ajo (¡si es ecológico,  no le quites la piel!), en el procesador y triturar hasta obtener trozos muy finos,  no debe quedar una papilla,  solo un corte muy muy fino.</item>
+        <item>Cortamos el perejil finamente con ayuda del cuchillo, lo mezclamos con el trigo sarraceno, la almendra molida, sal y pimienta al gusto.
+            Añadiremos el resto de ingredientes con movimientos envolventes para que toda la masa quede de un color rosa y se mezclen los sabores del perejil y el ajo.</item>
+    </string-array>
+
+    <!--Dish 05-->
+    <string name="d_05_title">Tortitas de avena</string>
+    <string name="d_05_people">2</string>
+    <string name="d_05_time">30 min</string>
+    <string name="d_05_type">Desayuno</string>
+    <string-array name="d_05_ingredients">
+        <item>2 tazas de avena</item>
+        <item>320 ml de bebida de soja</item>
+        <item>1 cucharada de semillas de chia</item>
+        <item>1 plátano maduro</item>
+    </string-array>
+
+    <string-array name="d_05_steps">
+        <item>En la batidora ponemos el plátano sin la piel y partido a trozos pequeños,  añadimos el retos de ingredientes y trituramos hasta obtener una mezcla ligeramente espesa y sin grumos.</item>
+        <item>En una sartén caliente extendemos aceite con ayuda de un papel de cocina,  vertemos la cantidad de masa para obtener una tortita redonda y más o menos de 10 cm de diámetro.</item>
+        <item>Yo suelo usar la cuchara de helado,  la típica que se una para los cupcakes,  de esta manera consigo que todas queden del mismo tamaño.</item>
+        <item>Les daremos la vuelta,  cuando veamos que forman pequeños agujeros en la tortita. Y dejamos cocer por el otro lado, menos de 1 min.  Vigilar que se pueden quemar rápidamente.</item>
+
+    </string-array>
+
+    <!--Dish 06-->
+    <string name="d_06_title">Bowl de trigo sarraceno</string>
+    <string name="d_06_people">1</string>
+    <string name="d_06_time">15 min</string>
+    <string name="d_06_type">"Desayuno"</string>
+    <string-array name="d_06_ingredients">
+        <item>1 taza y media de trigo sarraceno</item>
+        <item>1 taza y media de bebida de avena</item>
+        <item>1/2 taza de arándanos frescos o congelados</item>
+        <item>1/2 mango maduro</item>
+        <item>2 cucharadas de semillas y frutos secos</item>
+        <item>2 cucharadas de semillas de cáñamo</item>
+    </string-array>
+
+    <string-array name="d_06_steps">
+        <item>La noche anterior dejaremos activando/remojando el trigo sarraceno en agua filtrada.</item>
+        <item>A la mañana escurrimos y lavamos el trigo. Lo ponemos en la batidora junto con la bebida vegetal y los arándanos. Batir hasta obtener una mezcla homogénea.</item>
+        <item>Disponer la preparación en un bol y añadir a forma de decoración el mango, las semillas de cáñamo y los frutos secos.</item>
+
+    </string-array>
+
+
+</resources>
